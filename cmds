@@ -1,0 +1,17 @@
+TO Compile
+$ pwd
+src/
+$ javac -cp . -d ../bin com/muzi/indexer/*java
+
+
+TO Run
+$ pwd
+bin/
+$ java com.muzi.indexer.SAX_Parser 1000
+
+
+cat tweetsgeo* |  LC_ALL=C sort | LC_ALL=C uniq | wc -l
+
+
+for i in *; do echo $i; cat $i | LC_ALL=C sort > ../sorted/$i; done
+
