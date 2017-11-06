@@ -1,4 +1,4 @@
-#Implemented Things
+# Implemented Things
 
 1. SAX_Parser that extracts Title, ID and Text (body)
 2. Single PageProcessor that extracts Categories, Infobox
